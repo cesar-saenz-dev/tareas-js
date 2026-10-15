@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    background: #0f172a;
+    color: #e2e8f0;
+    font-family: system-ui, sans-serif;
+}
+main {
+    max-width: 480px;
+    margin: 3rem auto;
+    padding:  0 1rem;
+}
+form { display: flex; gap: 0.5rem;}
+input { flex: 1; padding: 0.6rem; border-radius: 6px; border: 1px solid #334155; background: #1e293b; color: inherit; }
+button { flex: 1; padding: 0.6rem; border: 0; border-radius: 6px; background: #3b82f6; color: white; cursor: pointer; }
+ul { list-style: none; padding: 0; }
+li { padding: 0.6rem; margin-top: 0.5rem; background: #1e293b; border-radius: 6px; }
